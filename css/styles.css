@@ -850,7 +850,7 @@ text-align: left;
   flex-wrap: nowrap;
 }
 .footer-model-btn {
-  margin: 0;
+
 }
 .footer-social-media-text {
   text-align: left;
@@ -859,6 +859,7 @@ text-align: left;
 @media screen and (min-width:1158px) {
   .page-footer {
  padding: 100px 0;
+ display: flex;
 }
 .footer-container{
 display: flex;
@@ -872,7 +873,7 @@ margin-right: 120px;
 }
 
 .footer-social-media-container {
-margin-left: 80px;
+
 }
 .footer-model {
   margin-left: auto;
@@ -891,6 +892,9 @@ justify-content: space-between;
 }
 .footer-model-text {
   margin-left: 79px;
+}
+.footer-model-btn {
+
 }
 }
 /* ===========/ Footer =========== */
